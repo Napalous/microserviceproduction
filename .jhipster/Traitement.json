@@ -1,0 +1,29 @@
+{
+  "name": "Traitement",
+  "fields": [
+    {
+      "fieldName": "traitement",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "datetraitement",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "traitement",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["projetgateway", "microserviceproduction"],
+  "microserviceName": "microserviceproduction",
+  "clientRootFolder": "microserviceproduction",
+  "databaseType": "sql",
+  "changelogDate": "20210327170259"
+}

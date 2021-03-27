@@ -1,0 +1,29 @@
+{
+  "name": "FicheMedical",
+  "fields": [
+    {
+      "fieldName": "observation",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dateconsultation",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "fiche_medical",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["projetgateway", "microserviceproduction"],
+  "microserviceName": "microserviceproduction",
+  "clientRootFolder": "microserviceproduction",
+  "databaseType": "sql",
+  "changelogDate": "20210327170059"
+}
